@@ -4,7 +4,7 @@ from datetime import datetime
 
 url = "https://aladhan.p.rapidapi.com/timingsByCity"
 
-querystring = {"country": "TUR", "city": "Istanbul"} # "country": "A country name or ISO 2 digit aplha code, like 'US' or 'United States of America'", "city": "A city name, like 'Istanbul'"
+querystring = {"country": "US", "city": "Istanbul"} # "country": "A country name or ISO 2 digit aplha code, like 'TUR' or 'Turkey'", "city": "A city name, like 'Istanbul'"
 
 headers = {
     "X-RapidAPI-Key": "Your rapidapi.com key",
